@@ -28,7 +28,6 @@ with open(os.path.join(sys.path[0], 'school_records.csv'), 'w', newline = '') as
 		
 	# writing the data rows
 	for records in rows:
-		print(records)
 		my_csvfile.writerow(records)
 
 #Reading the csv file as school_records
